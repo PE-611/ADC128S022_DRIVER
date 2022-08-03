@@ -1,0 +1,690 @@
+# Reading pref.tcl
+# do ADC128S022_DRIVER_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+D:/Job/project_quartus/ADC128S022_DRIVER {D:/Job/project_quartus/ADC128S022_DRIVER/adc128s022_driver.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:22:28 on Aug 03,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Job/project_quartus/ADC128S022_DRIVER" D:/Job/project_quartus/ADC128S022_DRIVER/adc128s022_driver.v 
+# -- Compiling module ADC128S022_DRIVER
+# 
+# Top level modules:
+# 	ADC128S022_DRIVER
+# End time: 20:22:28 on Aug 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+D:/Job/project_quartus/ADC128S022_DRIVER/simulation/modelsim {D:/Job/project_quartus/ADC128S022_DRIVER/simulation/modelsim/ADC128S022_DRIVER.vt}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:22:28 on Aug 03,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Job/project_quartus/ADC128S022_DRIVER/simulation/modelsim" D:/Job/project_quartus/ADC128S022_DRIVER/simulation/modelsim/ADC128S022_DRIVER.vt 
+# -- Compiling module ADC128S022_DRIVER_vlg_tst
+# 
+# Top level modules:
+# 	ADC128S022_DRIVER_vlg_tst
+# End time: 20:22:28 on Aug 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  ADC128S022_DRIVER_vlg_tst
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" ADC128S022_DRIVER_vlg_tst 
+# Start time: 20:22:28 on Aug 03,2022
+# Loading work.ADC128S022_DRIVER_vlg_tst
+# Loading work.ADC128S022_DRIVER
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Running testbench
+run
+run
+run
+add wave -position end  sim:/ADC128S022_DRIVER_vlg_tst/i1/divider_clk
+add wave -position end  sim:/ADC128S022_DRIVER_vlg_tst/i1/quantity_clk
+add wave -position end  sim:/ADC128S022_DRIVER_vlg_tst/i1/IDLE
+add wave -position end  sim:/ADC128S022_DRIVER_vlg_tst/i1/START
+add wave -position end  sim:/ADC128S022_DRIVER_vlg_tst/i1/START_GENERATE
+add wave -position end  sim:/ADC128S022_DRIVER_vlg_tst/i1/REVERSE_CLK
+add wave -position end  sim:/ADC128S022_DRIVER_vlg_tst/i1/STOP
+add wave -position end  sim:/ADC128S022_DRIVER_vlg_tst/i1/clk_in
+add wave -position end  sim:/ADC128S022_DRIVER_vlg_tst/i1/start_convert
+add wave -position end  sim:/ADC128S022_DRIVER_vlg_tst/i1/reset
+add wave -position end  sim:/ADC128S022_DRIVER_vlg_tst/i1/ADC_SDAT
+add wave -position end  sim:/ADC128S022_DRIVER_vlg_tst/i1/ADC_SCLK
+add wave -position end  sim:/ADC128S022_DRIVER_vlg_tst/i1/ADC_CS_N
+add wave -position end  sim:/ADC128S022_DRIVER_vlg_tst/i1/ADC_SADDR
+add wave -position end  sim:/ADC128S022_DRIVER_vlg_tst/i1/state
+add wave -position end  sim:/ADC128S022_DRIVER_vlg_tst/i1/next_state
+add wave -position end  sim:/ADC128S022_DRIVER_vlg_tst/i1/process_flg
+add wave -position end  sim:/ADC128S022_DRIVER_vlg_tst/i1/cnt
+add wave -position end  sim:/ADC128S022_DRIVER_vlg_tst/i1/cnt_quantity_clk
+run
+run
+vlog -reportprogress 300 -work work D:/Job/project_quartus/ADC128S022_DRIVER/simulation/modelsim/ADC128S022_DRIVER.vt
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:24:29 on Aug 03,2022
+# vlog -reportprogress 300 -work work D:/Job/project_quartus/ADC128S022_DRIVER/simulation/modelsim/ADC128S022_DRIVER.vt 
+# -- Compiling module ADC128S022_DRIVER_vlg_tst
+# ** Error: D:/Job/project_quartus/ADC128S022_DRIVER/simulation/modelsim/ADC128S022_DRIVER.vt(56): (vlog-2730) Undefined variable: 'start_button'.
+# End time: 20:24:29 on Aug 03,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vlog -reportprogress 300 -work work D:/Job/project_quartus/ADC128S022_DRIVER/simulation/modelsim/ADC128S022_DRIVER.vt
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:24:39 on Aug 03,2022
+# vlog -reportprogress 300 -work work D:/Job/project_quartus/ADC128S022_DRIVER/simulation/modelsim/ADC128S022_DRIVER.vt 
+# -- Compiling module ADC128S022_DRIVER_vlg_tst
+# 
+# Top level modules:
+# 	ADC128S022_DRIVER_vlg_tst
+# End time: 20:24:39 on Aug 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart -f
+# Loading work.ADC128S022_DRIVER_vlg_tst
+vlog -reportprogress 300 -work work D:/Job/project_quartus/ADC128S022_DRIVER/simulation/modelsim/ADC128S022_DRIVER.vt
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:25:13 on Aug 03,2022
+# vlog -reportprogress 300 -work work D:/Job/project_quartus/ADC128S022_DRIVER/simulation/modelsim/ADC128S022_DRIVER.vt 
+# -- Compiling module ADC128S022_DRIVER_vlg_tst
+# 
+# Top level modules:
+# 	ADC128S022_DRIVER_vlg_tst
+# End time: 20:25:13 on Aug 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart -f
+# Loading work.ADC128S022_DRIVER_vlg_tst
+run
+# GetModuleFileName: Не найден указанный модуль.
+# 
+# 
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+vlog -reportprogress 300 -work work D:/Job/project_quartus/ADC128S022_DRIVER/simulation/modelsim/ADC128S022_DRIVER.vt
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:26:01 on Aug 03,2022
+# vlog -reportprogress 300 -work work D:/Job/project_quartus/ADC128S022_DRIVER/simulation/modelsim/ADC128S022_DRIVER.vt 
+# -- Compiling module ADC128S022_DRIVER_vlg_tst
+# 
+# Top level modules:
+# 	ADC128S022_DRIVER_vlg_tst
+# End time: 20:26:01 on Aug 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart -f
+# Loading work.ADC128S022_DRIVER_vlg_tst
+run
+# GetModuleFileName: Не найден указанный модуль.
+# 
+# 
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+vlog -reportprogress 300 -work work D:/Job/project_quartus/ADC128S022_DRIVER/ADC128S022_DRIVER.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:57:52 on Aug 03,2022
+# vlog -reportprogress 300 -work work D:/Job/project_quartus/ADC128S022_DRIVER/ADC128S022_DRIVER.v 
+# -- Compiling module ADC128S022_DRIVER
+# 
+# Top level modules:
+# 	ADC128S022_DRIVER
+# End time: 20:57:52 on Aug 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart -f
+# Loading work.ADC128S022_DRIVER
+run
+# GetModuleFileName: Не найден указанный модуль.
+# 
+# 
+run
+run
+run
+vlog -reportprogress 300 -work work D:/Job/project_quartus/ADC128S022_DRIVER/ADC128S022_DRIVER.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:58:37 on Aug 03,2022
+# vlog -reportprogress 300 -work work D:/Job/project_quartus/ADC128S022_DRIVER/ADC128S022_DRIVER.v 
+# -- Compiling module ADC128S022_DRIVER
+# 
+# Top level modules:
+# 	ADC128S022_DRIVER
+# End time: 20:58:37 on Aug 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work D:/Job/project_quartus/ADC128S022_DRIVER/simulation/modelsim/ADC128S022_DRIVER.vt
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:58:41 on Aug 03,2022
+# vlog -reportprogress 300 -work work D:/Job/project_quartus/ADC128S022_DRIVER/simulation/modelsim/ADC128S022_DRIVER.vt 
+# -- Compiling module ADC128S022_DRIVER_vlg_tst
+# 
+# Top level modules:
+# 	ADC128S022_DRIVER_vlg_tst
+# End time: 20:58:41 on Aug 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Load canceled
+restart -f
+# Loading work.ADC128S022_DRIVER_vlg_tst
+# Loading work.ADC128S022_DRIVER
+run
+# GetModuleFileName: Не найден указанный модуль.
+# 
+# 
+run
+run
+vlog -reportprogress 300 -work work D:/Job/project_quartus/ADC128S022_DRIVER/simulation/modelsim/ADC128S022_DRIVER.vt
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:59:08 on Aug 03,2022
+# vlog -reportprogress 300 -work work D:/Job/project_quartus/ADC128S022_DRIVER/simulation/modelsim/ADC128S022_DRIVER.vt 
+# -- Compiling module ADC128S022_DRIVER_vlg_tst
+# 
+# Top level modules:
+# 	ADC128S022_DRIVER_vlg_tst
+# End time: 20:59:08 on Aug 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work D:/Job/project_quartus/ADC128S022_DRIVER/simulation/modelsim/ADC128S022_DRIVER.vt
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:59:18 on Aug 03,2022
+# vlog -reportprogress 300 -work work D:/Job/project_quartus/ADC128S022_DRIVER/simulation/modelsim/ADC128S022_DRIVER.vt 
+# -- Compiling module ADC128S022_DRIVER_vlg_tst
+# 
+# Top level modules:
+# 	ADC128S022_DRIVER_vlg_tst
+# End time: 20:59:18 on Aug 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Load canceled
+restart -f
+# Loading work.ADC128S022_DRIVER_vlg_tst
+run
+# GetModuleFileName: Не найден указанный модуль.
+# 
+# 
+run
+# Running testbench
+run
+run
+vlog -reportprogress 300 -work work D:/Job/project_quartus/ADC128S022_DRIVER/simulation/modelsim/ADC128S022_DRIVER.vt
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:01:42 on Aug 03,2022
+# vlog -reportprogress 300 -work work D:/Job/project_quartus/ADC128S022_DRIVER/simulation/modelsim/ADC128S022_DRIVER.vt 
+# -- Compiling module ADC128S022_DRIVER_vlg_tst
+# 
+# Top level modules:
+# 	ADC128S022_DRIVER_vlg_tst
+# End time: 21:01:42 on Aug 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart -f
+# Loading work.ADC128S022_DRIVER_vlg_tst
+vlog -reportprogress 300 -work work D:/Job/project_quartus/ADC128S022_DRIVER/ADC128S022_DRIVER.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:01:51 on Aug 03,2022
+# vlog -reportprogress 300 -work work D:/Job/project_quartus/ADC128S022_DRIVER/ADC128S022_DRIVER.v 
+# -- Compiling module ADC128S022_DRIVER
+# 
+# Top level modules:
+# 	ADC128S022_DRIVER
+# End time: 21:01:51 on Aug 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart -f
+# Loading work.ADC128S022_DRIVER
+run
+# GetModuleFileName: Не найден указанный модуль.
+# 
+# 
+run
+# Running testbench
+run
+vlog -reportprogress 300 -work work D:/Job/project_quartus/ADC128S022_DRIVER/ADC128S022_DRIVER.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:03:56 on Aug 03,2022
+# vlog -reportprogress 300 -work work D:/Job/project_quartus/ADC128S022_DRIVER/ADC128S022_DRIVER.v 
+# -- Compiling module ADC128S022_DRIVER
+# 
+# Top level modules:
+# 	ADC128S022_DRIVER
+# End time: 21:03:56 on Aug 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work D:/Job/project_quartus/ADC128S022_DRIVER/simulation/modelsim/ADC128S022_DRIVER.vt
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:04:00 on Aug 03,2022
+# vlog -reportprogress 300 -work work D:/Job/project_quartus/ADC128S022_DRIVER/simulation/modelsim/ADC128S022_DRIVER.vt 
+# -- Compiling module ADC128S022_DRIVER_vlg_tst
+# 
+# Top level modules:
+# 	ADC128S022_DRIVER_vlg_tst
+# End time: 21:04:00 on Aug 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart -f
+# Loading work.ADC128S022_DRIVER_vlg_tst
+# Loading work.ADC128S022_DRIVER
+run
+# GetModuleFileName: Не найден указанный модуль.
+# 
+# 
+run
+# Running testbench
+run
+vlog -reportprogress 300 -work work D:/Job/project_quartus/ADC128S022_DRIVER/simulation/modelsim/ADC128S022_DRIVER.vt
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:04:23 on Aug 03,2022
+# vlog -reportprogress 300 -work work D:/Job/project_quartus/ADC128S022_DRIVER/simulation/modelsim/ADC128S022_DRIVER.vt 
+# -- Compiling module ADC128S022_DRIVER_vlg_tst
+# 
+# Top level modules:
+# 	ADC128S022_DRIVER_vlg_tst
+# End time: 21:04:23 on Aug 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart -f
+# Loading work.ADC128S022_DRIVER_vlg_tst
+run
+# GetModuleFileName: Не найден указанный модуль.
+# 
+# 
+run
+# Running testbench
+run
+vlog -reportprogress 300 -work work D:/Job/project_quartus/ADC128S022_DRIVER/ADC128S022_DRIVER.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:04:36 on Aug 03,2022
+# vlog -reportprogress 300 -work work D:/Job/project_quartus/ADC128S022_DRIVER/ADC128S022_DRIVER.v 
+# -- Compiling module ADC128S022_DRIVER
+# 
+# Top level modules:
+# 	ADC128S022_DRIVER
+# End time: 21:04:36 on Aug 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart -f
+# Loading work.ADC128S022_DRIVER
+run
+# GetModuleFileName: Не найден указанный модуль.
+# 
+# 
+run
+# Running testbench
+run
+vlog -reportprogress 300 -work work D:/Job/project_quartus/ADC128S022_DRIVER/ADC128S022_DRIVER.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:22:05 on Aug 03,2022
+# vlog -reportprogress 300 -work work D:/Job/project_quartus/ADC128S022_DRIVER/ADC128S022_DRIVER.v 
+# -- Compiling module ADC128S022_DRIVER
+# ** Error: D:/Job/project_quartus/ADC128S022_DRIVER/ADC128S022_DRIVER.v(177): (vlog-2730) Undefined variable: 'shift'.
+# ** Error: (vlog-13069) D:/Job/project_quartus/ADC128S022_DRIVER/ADC128S022_DRIVER.v(177): near "reg": syntax error, unexpected reg.
+# End time: 21:22:05 on Aug 03,2022, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vlog -reportprogress 300 -work work D:/Job/project_quartus/ADC128S022_DRIVER/ADC128S022_DRIVER.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:22:57 on Aug 03,2022
+# vlog -reportprogress 300 -work work D:/Job/project_quartus/ADC128S022_DRIVER/ADC128S022_DRIVER.v 
+# -- Compiling module ADC128S022_DRIVER
+# 
+# Top level modules:
+# 	ADC128S022_DRIVER
+# End time: 21:22:57 on Aug 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart -f
+# Loading work.ADC128S022_DRIVER
+add wave -position end  sim:/ADC128S022_DRIVER_vlg_tst/i1/data_out
+run
+# GetModuleFileName: Не найден указанный модуль.
+# 
+# 
+run
+# Running testbench
+run
+vlog -reportprogress 300 -work work D:/Job/project_quartus/ADC128S022_DRIVER/simulation/modelsim/ADC128S022_DRIVER.vt
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:23:41 on Aug 03,2022
+# vlog -reportprogress 300 -work work D:/Job/project_quartus/ADC128S022_DRIVER/simulation/modelsim/ADC128S022_DRIVER.vt 
+# -- Compiling module ADC128S022_DRIVER_vlg_tst
+# 
+# Top level modules:
+# 	ADC128S022_DRIVER_vlg_tst
+# End time: 21:23:41 on Aug 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart -f
+# Loading work.ADC128S022_DRIVER_vlg_tst
+run
+# GetModuleFileName: Не найден указанный модуль.
+# 
+# 
+run
+# Running testbench
+run
+vlog -reportprogress 300 -work work D:/Job/project_quartus/ADC128S022_DRIVER/simulation/modelsim/ADC128S022_DRIVER.vt
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:27:44 on Aug 03,2022
+# vlog -reportprogress 300 -work work D:/Job/project_quartus/ADC128S022_DRIVER/simulation/modelsim/ADC128S022_DRIVER.vt 
+# -- Compiling module ADC128S022_DRIVER_vlg_tst
+# 
+# Top level modules:
+# 	ADC128S022_DRIVER_vlg_tst
+# End time: 21:27:44 on Aug 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work D:/Job/project_quartus/ADC128S022_DRIVER/simulation/modelsim/ADC128S022_DRIVER.vt
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:27:52 on Aug 03,2022
+# vlog -reportprogress 300 -work work D:/Job/project_quartus/ADC128S022_DRIVER/simulation/modelsim/ADC128S022_DRIVER.vt 
+# -- Compiling module ADC128S022_DRIVER_vlg_tst
+# 
+# Top level modules:
+# 	ADC128S022_DRIVER_vlg_tst
+# End time: 21:27:52 on Aug 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart -f
+# Loading work.ADC128S022_DRIVER_vlg_tst
+run
+# GetModuleFileName: Не найден указанный модуль.
+# 
+# 
+run
+run
+# Running testbench
+run
+vlog -reportprogress 300 -work work D:/Job/project_quartus/ADC128S022_DRIVER/simulation/modelsim/ADC128S022_DRIVER.vt
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:29:27 on Aug 03,2022
+# vlog -reportprogress 300 -work work D:/Job/project_quartus/ADC128S022_DRIVER/simulation/modelsim/ADC128S022_DRIVER.vt 
+# -- Compiling module ADC128S022_DRIVER_vlg_tst
+# 
+# Top level modules:
+# 	ADC128S022_DRIVER_vlg_tst
+# End time: 21:29:28 on Aug 03,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+restart -f
+# Loading work.ADC128S022_DRIVER_vlg_tst
+run
+# GetModuleFileName: Не найден указанный модуль.
+# 
+# 
+run
+# Running testbench
+run
+vlog -reportprogress 300 -work work D:/Job/project_quartus/ADC128S022_DRIVER/simulation/modelsim/ADC128S022_DRIVER.vt
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:33:39 on Aug 03,2022
+# vlog -reportprogress 300 -work work D:/Job/project_quartus/ADC128S022_DRIVER/simulation/modelsim/ADC128S022_DRIVER.vt 
+# -- Compiling module ADC128S022_DRIVER_vlg_tst
+# ** Error: (vlog-13069) D:/Job/project_quartus/ADC128S022_DRIVER/simulation/modelsim/ADC128S022_DRIVER.vt(50): near ":": syntax error, unexpected ':'.
+# End time: 21:33:40 on Aug 03,2022, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+vlog -reportprogress 300 -work work D:/Job/project_quartus/ADC128S022_DRIVER/simulation/modelsim/ADC128S022_DRIVER.vt
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:33:59 on Aug 03,2022
+# vlog -reportprogress 300 -work work D:/Job/project_quartus/ADC128S022_DRIVER/simulation/modelsim/ADC128S022_DRIVER.vt 
+# -- Compiling module ADC128S022_DRIVER_vlg_tst
+# 
+# Top level modules:
+# 	ADC128S022_DRIVER_vlg_tst
+# End time: 21:33:59 on Aug 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work D:/Job/project_quartus/ADC128S022_DRIVER/ADC128S022_DRIVER.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:34:05 on Aug 03,2022
+# vlog -reportprogress 300 -work work D:/Job/project_quartus/ADC128S022_DRIVER/ADC128S022_DRIVER.v 
+# -- Compiling module ADC128S022_DRIVER
+# 
+# Top level modules:
+# 	ADC128S022_DRIVER
+# End time: 21:34:05 on Aug 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart -f
+# Loading work.ADC128S022_DRIVER_vlg_tst
+# Loading work.ADC128S022_DRIVER
+run
+# GetModuleFileName: Не найден указанный модуль.
+# 
+# 
+# Running testbench
+run
+run
+run
+run
+run
+vlog -reportprogress 300 -work work D:/Job/project_quartus/ADC128S022_DRIVER/ADC128S022_DRIVER.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:36:57 on Aug 03,2022
+# vlog -reportprogress 300 -work work D:/Job/project_quartus/ADC128S022_DRIVER/ADC128S022_DRIVER.v 
+# -- Compiling module ADC128S022_DRIVER
+# 
+# Top level modules:
+# 	ADC128S022_DRIVER
+# End time: 21:36:57 on Aug 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart -f
+# Loading work.ADC128S022_DRIVER
+vlog -reportprogress 300 -work work D:/Job/project_quartus/ADC128S022_DRIVER/ADC128S022_DRIVER.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:37:11 on Aug 03,2022
+# vlog -reportprogress 300 -work work D:/Job/project_quartus/ADC128S022_DRIVER/ADC128S022_DRIVER.v 
+# -- Compiling module ADC128S022_DRIVER
+# 
+# Top level modules:
+# 	ADC128S022_DRIVER
+# End time: 21:37:11 on Aug 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work D:/Job/project_quartus/ADC128S022_DRIVER/simulation/modelsim/ADC128S022_DRIVER.vt
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:37:14 on Aug 03,2022
+# vlog -reportprogress 300 -work work D:/Job/project_quartus/ADC128S022_DRIVER/simulation/modelsim/ADC128S022_DRIVER.vt 
+# -- Compiling module ADC128S022_DRIVER_vlg_tst
+# 
+# Top level modules:
+# 	ADC128S022_DRIVER_vlg_tst
+# End time: 21:37:14 on Aug 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart -f
+# Loading work.ADC128S022_DRIVER_vlg_tst
+# Loading work.ADC128S022_DRIVER
+add wave -position end  sim:/ADC128S022_DRIVER_vlg_tst/i1/divider_clk
+add wave -position end  sim:/ADC128S022_DRIVER_vlg_tst/i1/quantity_clk
+add wave -position end  sim:/ADC128S022_DRIVER_vlg_tst/i1/IDLE
+add wave -position end  sim:/ADC128S022_DRIVER_vlg_tst/i1/START
+add wave -position end  sim:/ADC128S022_DRIVER_vlg_tst/i1/START_GENERATE
+add wave -position end  sim:/ADC128S022_DRIVER_vlg_tst/i1/REVERSE_CLK
+add wave -position end  sim:/ADC128S022_DRIVER_vlg_tst/i1/STOP
+add wave -position end  sim:/ADC128S022_DRIVER_vlg_tst/i1/clk_in
+add wave -position end  sim:/ADC128S022_DRIVER_vlg_tst/i1/start_convert
+add wave -position end  sim:/ADC128S022_DRIVER_vlg_tst/i1/reset
+add wave -position end  sim:/ADC128S022_DRIVER_vlg_tst/i1/ADC_SDAT
+add wave -position end  sim:/ADC128S022_DRIVER_vlg_tst/i1/ADC_SCLK
+add wave -position end  sim:/ADC128S022_DRIVER_vlg_tst/i1/ADC_CS_N
+add wave -position end  sim:/ADC128S022_DRIVER_vlg_tst/i1/ADC_SADDR
+add wave -position end  sim:/ADC128S022_DRIVER_vlg_tst/i1/data_out
+add wave -position end  sim:/ADC128S022_DRIVER_vlg_tst/i1/state
+add wave -position end  sim:/ADC128S022_DRIVER_vlg_tst/i1/next_state
+add wave -position end  sim:/ADC128S022_DRIVER_vlg_tst/i1/process_flg
+add wave -position end  sim:/ADC128S022_DRIVER_vlg_tst/i1/cnt
+add wave -position end  sim:/ADC128S022_DRIVER_vlg_tst/i1/cnt_quantity_clk
+run
+# GetModuleFileName: Не найден указанный модуль.
+# 
+# 
+run
+# Running testbench
+run
+vlog -reportprogress 300 -work work D:/Job/project_quartus/ADC128S022_DRIVER/simulation/modelsim/ADC128S022_DRIVER.vt
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:38:23 on Aug 03,2022
+# vlog -reportprogress 300 -work work D:/Job/project_quartus/ADC128S022_DRIVER/simulation/modelsim/ADC128S022_DRIVER.vt 
+# -- Compiling module ADC128S022_DRIVER_vlg_tst
+# ** Error: D:/Job/project_quartus/ADC128S022_DRIVER/simulation/modelsim/ADC128S022_DRIVER.vt(58): (vlog-2110) Illegal reference to net "data_out".
+# End time: 21:38:23 on Aug 03,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vlog -reportprogress 300 -work work D:/Job/project_quartus/ADC128S022_DRIVER/simulation/modelsim/ADC128S022_DRIVER.vt
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:38:53 on Aug 03,2022
+# vlog -reportprogress 300 -work work D:/Job/project_quartus/ADC128S022_DRIVER/simulation/modelsim/ADC128S022_DRIVER.vt 
+# -- Compiling module ADC128S022_DRIVER_vlg_tst
+# 
+# Top level modules:
+# 	ADC128S022_DRIVER_vlg_tst
+# End time: 21:38:53 on Aug 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart -f
+# Loading work.ADC128S022_DRIVER_vlg_tst
+run
+# GetModuleFileName: Не найден указанный модуль.
+# 
+# 
+run
+# Running testbench
+run
+vlog -reportprogress 300 -work work D:/Job/project_quartus/ADC128S022_DRIVER/simulation/modelsim/ADC128S022_DRIVER.vt
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:40:54 on Aug 03,2022
+# vlog -reportprogress 300 -work work D:/Job/project_quartus/ADC128S022_DRIVER/simulation/modelsim/ADC128S022_DRIVER.vt 
+# -- Compiling module ADC128S022_DRIVER_vlg_tst
+# 
+# Top level modules:
+# 	ADC128S022_DRIVER_vlg_tst
+# End time: 21:40:54 on Aug 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart -f
+# Loading work.ADC128S022_DRIVER_vlg_tst
+run
+# GetModuleFileName: Не найден указанный модуль.
+# 
+# 
+run
+# Running testbench
+run
+vlog -reportprogress 300 -work work D:/Job/project_quartus/ADC128S022_DRIVER/simulation/modelsim/ADC128S022_DRIVER.vt
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:41:46 on Aug 03,2022
+# vlog -reportprogress 300 -work work D:/Job/project_quartus/ADC128S022_DRIVER/simulation/modelsim/ADC128S022_DRIVER.vt 
+# -- Compiling module ADC128S022_DRIVER_vlg_tst
+# 
+# Top level modules:
+# 	ADC128S022_DRIVER_vlg_tst
+# End time: 21:41:47 on Aug 03,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work D:/Job/project_quartus/ADC128S022_DRIVER/simulation/modelsim/ADC128S022_DRIVER.vt
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:41:53 on Aug 03,2022
+# vlog -reportprogress 300 -work work D:/Job/project_quartus/ADC128S022_DRIVER/simulation/modelsim/ADC128S022_DRIVER.vt 
+# -- Compiling module ADC128S022_DRIVER_vlg_tst
+# 
+# Top level modules:
+# 	ADC128S022_DRIVER_vlg_tst
+# End time: 21:41:53 on Aug 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart -f
+# Loading work.ADC128S022_DRIVER_vlg_tst
+run
+# GetModuleFileName: Не найден указанный модуль.
+# 
+# 
+run
+# Running testbench
+run
+vlog -reportprogress 300 -work work D:/Job/project_quartus/ADC128S022_DRIVER/simulation/modelsim/ADC128S022_DRIVER.vt
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:44:05 on Aug 03,2022
+# vlog -reportprogress 300 -work work D:/Job/project_quartus/ADC128S022_DRIVER/simulation/modelsim/ADC128S022_DRIVER.vt 
+# -- Compiling module ADC128S022_DRIVER_vlg_tst
+# 
+# Top level modules:
+# 	ADC128S022_DRIVER_vlg_tst
+# End time: 21:44:05 on Aug 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart -f
+# Loading work.ADC128S022_DRIVER_vlg_tst
+run
+# GetModuleFileName: Не найден указанный модуль.
+# 
+# 
+run
+# Running testbench
+run
+vlog -reportprogress 300 -work work D:/Job/project_quartus/ADC128S022_DRIVER/simulation/modelsim/ADC128S022_DRIVER.vt
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:03:38 on Aug 03,2022
+# vlog -reportprogress 300 -work work D:/Job/project_quartus/ADC128S022_DRIVER/simulation/modelsim/ADC128S022_DRIVER.vt 
+# -- Compiling module ADC128S022_DRIVER_vlg_tst
+# 
+# Top level modules:
+# 	ADC128S022_DRIVER_vlg_tst
+# End time: 22:03:38 on Aug 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work D:/Job/project_quartus/ADC128S022_DRIVER/ADC128S022_DRIVER.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:03:42 on Aug 03,2022
+# vlog -reportprogress 300 -work work D:/Job/project_quartus/ADC128S022_DRIVER/ADC128S022_DRIVER.v 
+# -- Compiling module ADC128S022_DRIVER
+# 
+# Top level modules:
+# 	ADC128S022_DRIVER
+# End time: 22:03:42 on Aug 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work D:/Job/project_quartus/ADC128S022_DRIVER/ADC128S022_DRIVER.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:03:42 on Aug 03,2022
+# vlog -reportprogress 300 -work work D:/Job/project_quartus/ADC128S022_DRIVER/ADC128S022_DRIVER.v 
+# -- Compiling module ADC128S022_DRIVER
+# 
+# Top level modules:
+# 	ADC128S022_DRIVER
+# End time: 22:03:42 on Aug 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart -f
+# Loading work.ADC128S022_DRIVER_vlg_tst
+# Loading work.ADC128S022_DRIVER
+run
+# GetModuleFileName: Не найден указанный модуль.
+# 
+# 
+run
+# Running testbench
+run

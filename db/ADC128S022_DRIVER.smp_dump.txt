@@ -1,0 +1,8 @@
+
+State Machine - |ADC128S022_DRIVER|state
+Name state.REVERSE_CLK state.START_GENERATE state.START state.00000000 state.STOP 
+state.00000000 0 0 0 0 0 
+state.START 0 0 1 1 0 
+state.START_GENERATE 0 1 0 1 0 
+state.REVERSE_CLK 1 0 0 1 0 
+state.STOP 0 0 0 1 1 

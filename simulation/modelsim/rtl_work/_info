@@ -1,0 +1,59 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Job/project_quartus/ADC128S022_DRIVER/simulation/modelsim
+vADC128S022_DRIVER
+!s110 1659553422
+!i10b 1
+!s100 e9_BQ;cKc9WUMGz:`M]8N1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I:Iz5kAY<R[VSWEoOjaFHF2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1659552621
+8D:/Job/project_quartus/ADC128S022_DRIVER/ADC128S022_DRIVER.v
+FD:/Job/project_quartus/ADC128S022_DRIVER/ADC128S022_DRIVER.v
+!i122 33
+L0 10 194
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1659553422.000000
+!s107 D:/Job/project_quartus/ADC128S022_DRIVER/ADC128S022_DRIVER.v|
+!s90 -reportprogress|300|-work|work|D:/Job/project_quartus/ADC128S022_DRIVER/ADC128S022_DRIVER.v|
+!i113 1
+Z4 o-work work
+Z5 tCvgOpt 0
+n@a@d@c128@s022_@d@r@i@v@e@r
+vADC128S022_DRIVER_vlg_tst
+!s110 1659553418
+!i10b 1
+!s100 H6adXe1YjiR5YHVT55A9;1
+R1
+Ijl6iKJjneT3Ij7Looi^T23
+R2
+R0
+w1659552242
+8D:/Job/project_quartus/ADC128S022_DRIVER/simulation/modelsim/ADC128S022_DRIVER.vt
+FD:/Job/project_quartus/ADC128S022_DRIVER/simulation/modelsim/ADC128S022_DRIVER.vt
+!i122 31
+L0 29 46
+R3
+r1
+!s85 0
+31
+!s108 1659553418.000000
+!s107 D:/Job/project_quartus/ADC128S022_DRIVER/simulation/modelsim/ADC128S022_DRIVER.vt|
+!s90 -reportprogress|300|-work|work|D:/Job/project_quartus/ADC128S022_DRIVER/simulation/modelsim/ADC128S022_DRIVER.vt|
+!i113 1
+R4
+R5
+n@a@d@c128@s022_@d@r@i@v@e@r_vlg_tst

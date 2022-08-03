@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Wed Aug 03 22:11:54 2022
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+Revision Name : ADC128S022_DRIVER
+Top-level Entity Name : ADC128S022_DRIVER
+Family : Cyclone IV E
+Total logic elements : 50
+    Total combinational functions : 34
+    Dedicated logic registers : 40
+Total registers : 40
+Total pins : 23
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
